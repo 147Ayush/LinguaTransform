@@ -43,7 +43,7 @@ Applied after the attention and feed-forward layers to **stabilize and accelerat
 ### Feed-Forward Network
 Applies two linear transformations with a **ReLU activation in between**. This module introduces non-linearity, allowing the model to learn complex mappings from input to output.
 
-## Cross-Attention Mechanism
+### Cross-Attention Mechanism
 In the decoder, this mechanism aligns the encoder's output (English sentence representation) with the decoder's input (partially generated Hindi sentence), ensuring the translation aligns contextually with the source sentence.
 
 ## Dataset
